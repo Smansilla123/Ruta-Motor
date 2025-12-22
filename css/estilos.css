@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 /*estilos de index.html*/
 
@@ -48,11 +51,20 @@ nav ul li a{
 
 .renault div{
     width: 100%;
-    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.renault article{
+    border: 2px solid black;
+    width: 25%;
+    margin: 15px 0px;
 }
 
 .renault div article img{
-    width: 20%;
+    width: 100%;
 }
 
 /*secction fiat*/
@@ -63,11 +75,20 @@ nav ul li a{
 
 .fiat div{
     width: 100%;
-    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fiat article{
+    border: 2px solid black;
+    width: 25%;
+    margin: 15px 0px;
 }
 
 .fiat div article img{
-    width: 20%;
+    width: 100%;
 }
 
 /*secction volkswagen*/
@@ -78,11 +99,20 @@ nav ul li a{
 
 .volskwagen div{
     width: 100%;
-    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.volskwagen article{
+    border: 2px solid black;
+    width: 25%;
+    margin: 15px 0px;
 }
 
 .volskwagen div article img{
-    width: 20%;
+    width: 100%;
 }
 
 
