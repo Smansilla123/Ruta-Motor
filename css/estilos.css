@@ -1,0 +1,153 @@
+
+
+/*estilos de index.html*/
+
+/*barra de navegacion*/
+
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+nav img{
+    width: 7%;
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/*seccion de incio*/
+
+.inicio{
+    background-color: aqua;
+    color: black;
+}
+
+/*seccion productos*/
+
+.productos{
+    background-color: aquamarine;
+}
+
+/*estilos de autos.html*/
+
+/*secction renault*/
+
+.renault{
+    width: 100%;
+}
+
+.renault div{
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+.renault div article img{
+    width: 20%;
+}
+
+/*secction fiat*/
+
+.fiat{
+    width: 100%;
+}
+
+.fiat div{
+    width: 100%;
+    background-color: burlywood;
+}
+
+.fiat div article img{
+    width: 20%;
+}
+
+/*secction volkswagen*/
+
+.volskwagen{
+    width: 100%;
+}
+
+.volskwagen div{
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+.volskwagen div article img{
+    width: 20%;
+}
+
+
+/*estilos de toxi shine.html*/
+
+/*section shampoo*/
+
+.shampoo{
+    width: 100%;
+    background-color: blue;
+    color: black;
+}
+
+
+.shampoo div article img{
+    width: 9%;
+}
+
+/*section cera*/
+
+.cera{
+    width: 100%;
+    background-color: rgb(107, 107, 158);
+    color: black;
+}
+
+
+.cera div article img{
+    width: 9%;
+}
+
+/*section microfibra*/
+
+.microfibra{
+    width: 100%;
+    background-color: rgb(37, 37, 55);
+    color: black;
+}
+
+
+.microfibra div article img{
+    width: 9%;
+}
+
+/*section perfume*/
+
+.perfumes{
+    width: 100%;
+    background-color: rgb(145, 145, 185);
+    color: black;
+}
+
+
+.perfumes div article img{
+    width: 10%;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+footer img{
+    width: 2%;
+}
+
