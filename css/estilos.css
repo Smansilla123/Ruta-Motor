@@ -40,9 +40,6 @@ nav ul li a{
 
 /*seccion productos*/
 
-.productos{
-    background-color: aquamarine;
-}
 
 /*estilos de autos.html*/
 
@@ -121,57 +118,27 @@ nav ul li a{
 
 /*estilos de toxi shine.html*/
 
-/*section shampoo*/
+.productos{
+    background-color: black;
+}
 
-.shampoo{
-    width: 100%;
-    background-color: blue;
-    color: black;
+.productos section div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 
-.shampoo div article img{
-    width: 9%;
-}
 
-/*section cera*/
-
-.cera{
-    width: 100%;
-    background-color: rgb(107, 107, 158);
-    color: black;
-}
-
-
-.cera div article img{
-    width: 9%;
-}
-
-/*section microfibra*/
-
-.microfibra{
-    width: 100%;
-    background-color: rgb(37, 37, 55);
-    color: black;
-}
-
-
-.microfibra div article img{
-    width: 9%;
-}
-
-/*section perfume*/
-
-.perfumes{
-    width: 100%;
-    background-color: rgb(145, 145, 185);
-    color: black;
-}
-
-
-.perfumes div article img{
-    width: 10%;
-}
 
 /*footer*/
 footer{
