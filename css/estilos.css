@@ -6,6 +6,43 @@
 
 /*estilos de index.html*/
 
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.inicio h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.inicio p{
+    color: white;
+    font-size: 20px;
+}
+
+.baners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.baners div article{
+    margin: 40px 0px;
+
+}
+
+.carrucel-index{
+    height: 90vh;
+    object-fit: cover;
+}
+
 /*barra de navegacion*/
 
 main{
@@ -81,7 +118,37 @@ nav ul li a{
 }
 
 
+/*Regustrarse*/
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+form{
+    border: 2px white solid;
+    margin: 50px 0px;
+    width: 30%;
+    height: 65vh;
+    padding: 15px;
+}
+
+form input{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+form button{
+    width: 100%;
+}
+
+.formulario h2{
+    text-align: center;
+}
 
 /*footer*/
 footer{
