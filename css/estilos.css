@@ -1,13 +1,16 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 
 /*estilos de index.html*/
 
 /*barra de navegacion*/
 
-
+main{
+    background-color: #1d2d44;
+}
 
 nav img{
     width: 8%;
@@ -26,7 +29,6 @@ nav ul li a{
 /*seccion de incio*/
 
 .inicio{
-    background-color: aqua;
     color: black;
 }
 
@@ -37,35 +39,11 @@ nav ul li a{
 
 /*secction renault*/
 
-.renault{
+.autos-card{
     width: 100%;
 }
 
-.renault div{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.renault article{
-    border: 2px solid black;
-    width: 25%;
-    margin: 15px 0px;
-}
-
-.renault div article img{
-    width: 100%;
-}
-
-/*secction fiat*/
-
-.fiat{
-    width: 100%;
-}
-
-.fiat div{
+.autos-card div{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -73,53 +51,26 @@ nav ul li a{
     justify-content: space-evenly;
 }
 
-.fiat article{
+.autos-card article{
     border: 2px solid black;
     width: 25%;
     margin: 15px 0px;
 }
 
-.fiat div article img{
-    width: 100%;
-}
-
-/*secction volkswagen*/
-
-.volskwagen{
-    width: 100%;
-}
-
-.volskwagen div{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.volskwagen article{
-    border: 2px solid black;
-    width: 25%;
-    margin: 15px 0px;
-}
-
-.volskwagen div article img{
+.autos-card div article img{
     width: 100%;
 }
 
 
 /*estilos de toxi shine.html*/
 
-.productos{
-    background-color: black;
-}
 
 .productos section div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 15px 0px;
+    padding: 30px 0px;
 }
 
 .card{
@@ -137,6 +88,15 @@ footer{
     background-color: black;
     color: white;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer p{
+    padding-top: 10px;
 }
 
 footer img{
