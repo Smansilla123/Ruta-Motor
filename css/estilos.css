@@ -180,3 +180,48 @@ footer img{
     width: 2%;
 }
 
+/*Responsive*/
+
+@media (max-width: 500px){
+    
+    nav img{
+        width: 15%;
+    }
+
+    .inicio p{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .carrucel-index{
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .baners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .baners div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    footer img{
+        width: 5%;
+    }
+
+    form{
+        width: 70%;
+        height: 75vh;
+    }
+}
