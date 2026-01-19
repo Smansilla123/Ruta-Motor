@@ -1,3 +1,130 @@
 
 
-/*# sourceMappingURL=estilos.css.map */
+
+
+/*estilos de toxi shine.html*/
+
+
+.productos section div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/*Accesorios*/
+
+.accesorios div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+
+/*Regustrarse*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+form{
+    border: 2px white solid;
+    margin: 50px 0px;
+    width: 30%;
+    height: 65vh;
+    padding: 15px;
+}
+
+form input{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+form button{
+    width: 100%;
+}
+
+.formulario h2{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+footer img{
+    width: 2%;
+}
+
+/*Responsive*/
+
+@media (max-width: 500px){
+    
+    nav img{
+        width: 15%;
+    }
+
+    .inicio p{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .carrucel-index{
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .baners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .baners div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    footer img{
+        width: 5%;
+    }
+
+    form{
+        width: 70%;
+        height: 75vh;
+    }
+}
