@@ -1,6 +1,6 @@
 @use "base/reser";
 
-@use "layout/nav";
+@use "components/nav";
 
 @use "layout/inicio";
 
@@ -8,8 +8,10 @@
 
 @use "layout/toxishein";
 
-@use "layout/registrarse";
+@use "components/registrarse";
 
 @use "layout/footer";
 
 @use "layout/quienessomos";
+
+@use "components/responsive";
