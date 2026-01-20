@@ -187,5 +187,11 @@ footer img {
     margin: 10px 0px;
   }
 }
+.prod section div article {
+  transition: transform 0.3s ease;
+}
+.prod section div article :hover {
+  transform: scale(1.05);
+}
 
 /*# sourceMappingURL=estilos.css.map */
