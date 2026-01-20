@@ -124,4 +124,30 @@ footer img {
   width: 2%;
 }
 
+.contenido {
+  color: white;
+  padding: 0px 30px;
+  padding-bottom: 30px;
+}
+.contenido h1 {
+  padding: 10px 0px;
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenido h2 {
+  padding: 10px 0px;
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenido p {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.contenido ul li {
+  padding: 5px 0px;
+  font-size: 17px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
