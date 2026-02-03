@@ -1,5 +1,5 @@
 footer{
-    background-color: black;
+    background-color: #252422;
     color: white;
     width: 100%;
     display: flex;
@@ -12,8 +12,11 @@ footer{
         padding-top: 10px;
     }
 
-    img{
+    a{
         width: 2%;
+        img{
+            width: 100%;
+        }
     }
 }
 

@@ -7,13 +7,16 @@ main {
   background-color: #1d2d44;
 }
 
-nav img {
+nav {
+  background-color: #252422;
+}
+nav div img {
   width: 8%;
 }
-nav ul {
+nav div ul {
   list-style-type: none;
 }
-nav ul li a {
+nav div ul li a {
   text-decoration: none;
   color: white;
 }
@@ -61,9 +64,13 @@ nav ul li a {
   justify-content: space-evenly;
 }
 .autos-card article {
+  background-color: #d9d9d9;
   border: 2px solid black;
   width: 25%;
   margin: 15px 0px;
+}
+.autos-card article ul li {
+  background-color: #d9d9d9;
 }
 
 .productos section div {
@@ -73,12 +80,15 @@ nav ul li a {
   justify-content: space-evenly;
   padding: 30px 0px;
 }
-
-.card {
+.productos section div article {
+  background-color: #cfdbd5;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+.productos section div article a {
+  background-color: black;
 }
 
 .formulario {
@@ -108,7 +118,7 @@ form button {
 }
 
 footer {
-  background-color: black;
+  background-color: #252422;
   color: white;
   width: 100%;
   display: flex;
@@ -120,8 +130,11 @@ footer {
 footer p {
   padding-top: 10px;
 }
-footer img {
+footer a {
   width: 2%;
+}
+footer a img {
+  width: 100%;
 }
 
 .contenido {
