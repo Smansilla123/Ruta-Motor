@@ -37,6 +37,10 @@ nav div ul li a {
   color: white;
   font-size: 20px;
 }
+.inicio div .carrucel-index {
+  height: 80vh;
+  object-fit: cover;
+}
 
 .baners {
   display: flex;
@@ -46,11 +50,6 @@ nav div ul li a {
 }
 .baners div article {
   margin: 40px 0px;
-}
-
-.carrucel-index {
-  height: 90vh;
-  object-fit: cover;
 }
 
 .autos-card {
@@ -171,8 +170,8 @@ footer a img {
     font-size: 15px;
     text-align: center;
   }
-  .carrucel-index {
-    height: 40vh;
+  .inicio div .carrucel-index {
+    height: 20vh;
   }
   .baners {
     flex-direction: column;

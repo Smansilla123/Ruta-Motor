@@ -15,6 +15,13 @@
         color:white;
         font-size: 20px;
     }
+
+    div{
+        .carrucel-index{
+            height: 80vh;
+            object-fit: cover;
+        }
+    }
 }
 
 .baners{
@@ -30,7 +37,3 @@
     }
 }
 
-.carrucel-index{
-    height: 90vh;
-    object-fit: cover;
-}

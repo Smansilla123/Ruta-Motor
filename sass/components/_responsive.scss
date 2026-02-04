@@ -11,11 +11,15 @@
             font-size: 15px;
             text-align: center;
         }
+
+        div{
+            .carrucel-index{
+                height: 20vh;
+            }
+        }
     }
 
-    .carrucel-index{
-        height: 40vh;
-    }
+
 
     .baners{
         flex-direction: column;
