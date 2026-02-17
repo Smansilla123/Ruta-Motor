@@ -1,5 +1,28 @@
+
+.prod{
+    h2{
+        background-color: #b4b8ab;
+        text-align: center;
+        color: black;
+        padding: 5px 0px;
+        font-family: monospace;
+        margin: 0px 50px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
 .autos-card{
     width: 100%;
+    h3{
+        background-color: #b4b8ab;
+        text-align: center;
+        color: black;
+        padding: 5px 0px;
+        font-family: monospace;
+        margin:  0px 80px;
+        border-radius: 10px;
+    }
 
     div{
         width: 100%;

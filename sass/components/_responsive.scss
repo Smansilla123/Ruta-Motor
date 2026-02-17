@@ -23,6 +23,7 @@
 
     .baners{
         flex-direction: column;
+        align-items: center;
         div{
             display: flex;
             flex-direction: column;
@@ -31,8 +32,12 @@
     }
 
     footer{
-        img{
+        a{
             width: 5%;
+        }
+
+        p{
+            font-size: 20px;
         }
     }
 
